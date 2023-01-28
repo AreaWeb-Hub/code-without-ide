@@ -1,3 +1,12 @@
+<?php
+require_once __DIR__ . '/vendor/autoload.php';
+
+if (auth()->check()) {
+        header('Location: /profile.php');
+        die();
+}
+?>
+
 <html lang="ru">
 <?php include_once __DIR__ . '/resources/components/head.php' ?>
 <body>

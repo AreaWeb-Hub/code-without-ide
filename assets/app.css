@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	width: 1115px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 20px 0;
+	background: #f5eceb;
+}
+
+.header > .wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav {
+
+}
+
+.form {
+	margin: 20px 0 0 0;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	padding: 10px 5px;
+	margin: 5px 0;
+}
+
+button {
+	padding: 10px 5px;
+}
